@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Sophia Perry</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #1d3557;
+            line-height: 1.6;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px 0;
+        }
+        .contact-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .contact-links a {
+            color: #1d3557;
+            text-decoration: none;
+            margin: 10px 15px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .contact-links a:hover {
+            background-color: #e9ecef;
+        }
+        @media (max-width: 600px) {
+            .contact-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            .contact-links a {
+                margin: 10px 0;
+                width: 200px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        
+        <img src="bio pic.jpg" alt="headshot" class="profile-img">
+        
+        <p>In my free time, I like to hang out with friends and family. I try to go to the beach when I can, though I've found it's a little more difficult to do that in the Midwest. I recommend Project Runway and The Real Housewives of Beverly Hills. Please do not hesistate to reach out if you'd like to discuss.  </p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/sophia-perry-10a678326/">LinkedIn</a>
+        
+        </div>
+    </div>
+</body>
+</html>

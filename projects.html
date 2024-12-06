@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Sophia Perry</title>
+
+    <!-- This is my project page. I am including previoius professional work and class work. I am using assignments from my IMC 306 class to satisfy an additional portfolio assignment -->
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #1d3557;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            padding: 10px;
+            border-radius: 10px;
+            flex-wrap: wrap;
+        }
+        .project:hover {
+            background-color: #e9ecef;
+        }
+
+        .project img {
+            max-width: 300px;
+            width: 100%;
+            margin: 10px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .project-content {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+        }
+        .project-left { flex-direction: row; }
+        .project-right { flex-direction: row-reverse; }
+        .project-details {
+            display: none;
+            width: 100%;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .project-title {
+            font-weight: bold;
+            color: #1d3557;
+            font-size: 1.2em;
+        }
+        @media (max-width: 768px) {
+            .project {
+                flex-direction: column !important;
+                text-align: center;
+            }
+            .project img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Projects</h1>
+
+
+        <div class="project project-left" onclick="toggleDetails(this)">
+            <div class="project-content">
+                <div class="project-title">Chicago Reader - Audience Research</div>
+                <div class="project-details">
+                    <p>The Chicago Reader is the city's oldest alternative magazine. 
+                        The paper teamed up with Medill's Local News Accelerator to research their readership and expand print distribution. 
+                        As a fellow, I designed and implemented our qualitative reserach methods, street interviews in various neighborhoods and a digital Qualtrics survey. 
+                        We cross-referenced our findings with a quantitative analysis of expenditure spending by geography and Nielsen-Scarborough consumer reports to draft nuanced audience personas. 
+                        Our research revealed key insights about reader preferences and informed distribution strategy.</Q></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="project project-right" onclick="toggleDetails(this)">
+            <div class="project-content">
+                <div class="project-title">Chicago Metropolitan Sports Association (IMC 307) - Brand Positioning</div>
+                <div class="project-details">
+                    <p>Chicago Metropolitan Sports Assocation is the largest non-profit LGBTQ+ sports organization in the Midwest. 
+                        As part of an advanced marketing course, I collaborated with a team of students to design a comprehensive digital communications strategy for CMSA. 
+                        We leveraged our industry and competitor analysis with organizational data to define a target market and create audience personas. 
+                        These insights informed our brand positioning recommendations, and digital communication strategies. 
+                        Referencing Google, Youtube, and Momentum Marketing tactics, we developed a 52-week content calendar, hub content pillars, help content topics, hero promotional ideas, and budgeting plans. 
+                        Ultimately our recommendations will help CMSA becoming a reference point for Chicagoans seeking an inclusive community. In addition, our search engine optimization reccomendations will transform their digital platforms into a welcoming interactive and informative community. </p>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="project project-left" onclick="toggleDetails(this)">
+        <div class="project-content">
+            <div class="project-title">Short Term Rentals in Hawai'i - Interactive Data Visualization</div>
+            <div class="project-details">
+                    <!-- map time-->
+
+                <div class="flourish-embed flourish-map" data-src="visualisation/19967434"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19967434/thumbnail" width="100%" alt="map visualization" /></noscript></div>       
+                <p>This map visualizes the number of AirBnBs across the state of Hawai'i as of October 2024. This issue is close to my heart as the cost of living in my hometown continues to reach new astronomical levels, and the increase in short-term rentals has had a significant effect. <a href="https://slcperry.github.io/j3200/map.html">Click here</a> to view the whole story. </p>
+        </div>
+    </div>
+</div>
+
+<div class="project project-right" onclick="toggleDetails(this)">
+
+    <div class="project-content">
+        <div class="project-title"> Strategic Communications (IMC 306) - Crisis Management </div>
+        <div class="project-details">
+            <p>Crises are unpredictable<em>—although preventable! — </em> events that threaten a brand’s reputation. It is important that brands swiftly address these situations with genuine concern to rebuild trust with their audience. Monitoring and controlling the narrative is imperative, after pausing any regularly scheduled communication.
+            <p>
+                SwiftEats is a fictional food delivery undergoing an employee abuse scandal.  <a href="https://docs.google.com/document/d/1EvkbXM4vHt0KIjYdqRL7Wfzt6Awiw4vkiOM6gld07gc/edit?usp=sharing">This crisis management plan</a> allows SwiftEats to authentically rebuild trust while staying true to the vision, mission, and values of the brand. 
+                <p> This assignment demonstrates my familiarity with crisis management and my understanding of an appropriate response.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="project project-left" onclick="toggleDetails(this)">
+
+    <div class="project-content">
+        <div class="project-title">Strategic Communications (IMC 306) - Strategic Storytelling</div>
+        <div class="project-details">
+<p>Harmony Haven Wellness is a fictional luxury wellness clinic. <a href="https://docs.google.com/document/d/1sj2AcXFnP05Aen5MLIz9xYC1QQvyea3oDNwxrjQuaHw/edit?usp=sharing">
+    This podcast plan</a> identifies a target audience segment and outlines the storytelling strategies used in this episode. </p>
+    <!-- embed code from spotify-->
+    <P><iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2uMtYoT7JDwmkPjCVH2OWZ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></P>
+<p>We created a prototype of this podcast and shared it to Spotify. This group assignment demonstrates my understanding of storytelling strategies and audience segmentation. </p>
+</div>
+</div>
+</div>
+</div>
+
+    <script>
+        function toggleDetails(project) {
+            const details = project.querySelector('.project-details');
+            details.style.display = details.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
